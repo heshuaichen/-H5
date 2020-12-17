@@ -1,0 +1,57 @@
+.com p{
+    margin: 0;
+}
+.com-car{
+    background-color: #C6D009;
+    height: 220px;
+}
+.com-body{
+    background-color: #FFF2E9;
+    border-radius: 19px;
+    height: 1458px;
+    margin-top: -30px;
+    /* padding-top: -30px; */
+}
+
+.com-k{
+    padding-top: 10px;
+    position: relative;
+    top:30px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.com-more{
+    margin-left: 70%;
+}
+.com-inst{
+    height: 130px;
+    /* border: 1px rgb(165, 165, 152) solid; */
+    margin-bottom: 5px;
+    /* float: left; */
+}
+.com-inst img{
+    height: 108px;
+    width: 108px;
+    margin-left: 10px;
+}
+.com-inst-un{
+    background-color: #F84905;
+    border: 1px #F84905 solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+.com-inst-bm{
+    background-color: #EF2E25;
+    width: 80px;
+    height: 30px;
+    border-radius: 27px;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+}

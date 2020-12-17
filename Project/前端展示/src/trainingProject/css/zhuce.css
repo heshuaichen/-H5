@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.zc{
+    background-color: white;
+    height:100%;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+.zc-header{
+    position: relative;
+    background-color: #EFF3F5;
+    height: 3rem;
+    width: 100%;
+    font-size: 17px;
+}
+.zc-header-icon1{
+    height: 2rem;
+    width: 20%;
+    z-index: 1000;
+}
+.zc-header-p{
+    position: absolute;
+    padding-left: 9rem;
+    width: 80%;
+}
+.lg-input{
+    text-align: center;
+    margin: 0 auto;
+    width: 16rem;
+    position: relative;
+    height: 13rem;
+}
+.lg-input-type-1{
+    width: 100%;
+    height: 5rem;
+    margin-top: -5rem;
+    position: absolute;
+
+}
+.lg-input-type-2{
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+.lg-input-type-1 input{
+    height: 3rem;
+    width: 100%;
+    border-right-width:0 ;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-bottom-width: 1px;
+    margin-top: 1rem;
+}
+.lg-input-type-2 input{
+    height: 3rem;
+    width: 100%;
+    border-right-width:0 ;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-bottom-width: 1px;
+    margin-top: 1rem;
+}
+.zc-button{
+    background-color: #11D183;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    margin:  1rem auto;
+    border: 0 ;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}

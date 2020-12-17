@@ -1,0 +1,62 @@
+.youeryuanTable{
+    width: 94%;
+    margin:3% 3% 3% 3%;
+}
+.youeryuanTh{
+    width: 25%;
+    height: 40px;
+    background-color:mintcream;
+    border-bottom: 1px solid #ccc;
+}
+.youeryuanTd{
+    width: 25%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.youeryuanImg{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    margin-top:15px;
+    margin-left: 0;
+}
+.youeryuanBtn{
+    background-color: azure;
+    width: 40%;
+    font-size:12px ;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+.addYoueryuan{
+    height: 33px;
+    width: 90px;
+    background-color: rgb(240, 255, 255);
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+.youeryuanChangecolor{
+    color: mediumseagreen;
+}
+.youeryuanColor{
+    color: mediumseagreen;
+}
+
+.footBtn{
+    width:100%;
+    height: 50px;
+    text-align: center;
+}
+.footBtn span{
+    margin-left:5px;
+}
+.footB{
+    margin-left: 45%;
+    margin-top: 30%;
+}
+.footB span{
+    margin-left: 5px;
+}

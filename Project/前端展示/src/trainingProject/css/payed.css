@@ -1,0 +1,29 @@
+.pd{
+    margin: 0 auto;
+}
+.pd-head{
+    height: 45px;
+    line-height: 45px;
+    background-color: #C6D009;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pd button{
+    width: 50%;
+    height: 40px;
+    background-color: #139D40;
+    color: white;
+    margin: 5% 0 0 25%;
+    border-radius: 100px;
+    border: 1px #139D40 solid;
+}
+.pd-list img{
+    width: 50%;
+    margin: 10% 0 0 25%;
+}
+.pd-list{
+    padding-bottom: 10%;
+    background-color: #fff;
+}

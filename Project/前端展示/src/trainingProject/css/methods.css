@@ -1,0 +1,30 @@
+.am-accordion .am-accordion-item .am-accordion-header{
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding:0 20px;
+}
+.am-accordion .am-accordion-item .am-accordion-header i{
+    top: 30px;
+}
+.my-list{
+    padding-left: 10px;
+}
+.list1{
+    height: 50px;
+}
+.list1 .am-accordion-item .am-accordion-header{
+    font-size: 18px;
+}
+.list1 .am-list-line .am-list-content{
+    font-size: 18px;
+}
+.list2 .am-list-line .am-list-content{
+    font-size: 15px;
+}
+.list2{
+    padding-left: 10px;
+}
+.my-accordion .pad .am-accordion-content-box {
+    padding: 10px;
+}

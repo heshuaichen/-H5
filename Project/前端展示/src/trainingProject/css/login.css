@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.login{
+    background-color: white;
+    height:100%;
+    margin: 0 auto;
+    position: absolute;
+}
+.login-header-icon1{
+    height: 2rem;
+    margin-left:-7.5rem ;
+    margin-top: 4rem;
+    z-index: 1000;
+    position:absolute;
+}
+.lg-header{
+    position: relative;
+    margin: 0 auto;
+    width:100%;
+    background-image: url(../登录页/image/header.png) ;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size:100% 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.lg-header img{
+    margin: 0 auto;
+    margin-top: -3rem; 
+    height: 4rem;
+}
+.lg-header-p{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 8rem; 
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+}
+  
+.lg-input{
+    text-align: center;
+    margin: 0 auto;
+    width: 16rem;
+    position: relative;
+    height: 11rem;
+}
+.lg-input-type-1{
+    width: 100%;
+    height: 5rem;
+    margin-top: -5rem;
+    position: absolute;
+}
+.lg-input-type-2{
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+.lg-input-type-1 input{
+    height: 3rem;
+    width: 100%;
+    border-right-width:0 ;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-bottom-width: 1px;
+    margin-top: 1rem;
+}
+.lg-input-type-2 input{
+    height: 3rem;
+    width: 100%;
+    border-right-width:0 ;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-bottom-width: 1px;
+    margin-top: 1rem;
+}
+.forgetpw{
+    color: #B5B5B5;
+    font-size: 0.8rem;
+    width: 16rem;
+    margin: 0 auto;
+    z-index: 5000;
+}
+.login-button{
+    background-color: #11D183;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    margin:  1rem auto;
+    border: 1px #11D183 solid;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+.lg-zc{
+    text-align: center;
+    margin: 1rem 0 0 0;
+    color: #919191;
+}
+.lg-zc span{
+    color:  #11D183;
+}

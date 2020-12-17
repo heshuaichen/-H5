@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    margin-top: 20px;
+}
+.shopInput{
+    margin-left: 9%;
+    border-radius: 5px;
+    height: 30px;
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+.shopBtn{
+    margin-left: 2%;
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.shopList-group{
+    width: 86%;
+    height: auto;
+}
+.shopList-group-item{
+    height: 20px;
+    margin-left: 6%;
+    margin-top: 10px;
+}
+.shopList-group-item-active{
+    margin-left:6%;
+    height: 20px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+strong{
+    margin-left: 5%;
+    position: relative;
+    top:20px
+}
+.strong{
+    height: 40px;
+}
+.shopSearch-button{
+    margin-top: 10px ;
+    margin-left: 5%;
+    padding: 0.2rem;
+    height: 28px;
+    border: 1px #d4d4d4 solid;
+    border-radius: 26px;
+}
+
+.clearShophistory-button{
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-left: 6%;
+    width: 10%;
+    border-radius: 26px;
+    margin-top: 10px;
+}
+
+.shopSearch-icon{
+    margin-left: 2%;
+    height: 30px;
+    position: absolute;
+}

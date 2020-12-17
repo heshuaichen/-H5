@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.backgroundcl-my{
+    height:13rem;
+    width:100%;
+    background-color: #C6D009;
+    border-radius: 0 0 5rem 5rem;
+}
+.btn-1-my{
+    position: absolute;
+    height:1.25rem;
+    width:100%;
+    top:1.5rem ;
+}
+.icon-my1{
+    position: absolute;
+    right: 3rem;
+    height:1.5rem;
+    width:1.5rem;
+}
+.icon-my11{
+    position: absolute;
+    right: 1rem;
+    height:1.5rem;
+    width:1.5rem;
+}
+.btn-2-my{  
+    width:100%;
+    margin-top:2rem ;
+}
+.btn-2-photo-my{
+    position: absolute;
+    height:6rem;
+    width:100%;
+}
+.btn-2-photo-my-1{
+    margin: 0 auto;
+    height:6rem;
+    width: 6rem;
+    border-radius: 3rem;
+    background-color: white;
+}
+.div-name-my{
+    width:100%;
+}
+.name-my{
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8rem;
+}
+.listshow-my{
+    height:8rem;
+    width:100%;
+    background-color: white;
+}
+.listshow-son-my-1{
+    height:8rem;
+    width:33%;
+    float: left;
+}
+.listshow-son-my-2{
+    height:8rem;
+    width:33%;
+    float: left;
+}
+.listshow-son-my-3{
+    height:8rem;
+    width:33%;
+    float: left;
+}
+.icon-my2-div{
+    position: absolute;
+    width:33% ;
+    margin-top: -3rem;
+}
+.icon-my2-div-2{
+    position: absolute;
+    width:33% ;
+    margin-top: -3rem;
+}
+.icon-my2-1{
+    height:3rem;
+    width:3rem;
+    margin: 0 auto;
+}
+.listname-my-div{
+    width: 100%;
+}
+.listname-my{
+    position: absolute;
+    width: 33%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+.listname-my-2{
+    position: absolute;
+    width: 33%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+.listname-2-my{
+    position: absolute;
+    width: 33%;
+    font-size: 0.001rem;
+    text-align: center;
+    color: #999999;
+    margin-top: 5rem;
+}
+.listname-2-my-2{
+    position: absolute;
+    width: 33%;
+    font-size: 0.001rem;
+    text-align: center;
+    color: #999999;
+    margin-top: 5rem;
+}
+.listshow-list-my{
+    margin-top: 1rem;
+    height:10rem;
+    width:100%;
+    background-color: white;
+}
+.listshow-list-p-my{
+    padding-top: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 4rem;
+}
+.icon-my4-1{
+    position: absolute;
+    left: 1.25rem;
+    height:2rem;
+    width:2rem;
+    margin-top: -0.4rem;
+}
+.icon-my3{
+    position: absolute;
+    right: 1.25rem;
+    height:1.25rem;
+    width:1.5rem;
+}
+.login-my{
+    background-color: white;
+    height: 2rem;
+    margin: 1rem 4rem;
+    border-radius: 1rem;
+
+}
+.login-p-my{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 0.6rem;
+}

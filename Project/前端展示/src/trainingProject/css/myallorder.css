@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.myallorder-div{
+    position: relative;
+    height: 8.5rem;
+    width: 100%;
+    margin-top:0.5rem;
+}
+.myallorder-div-1{
+    height: 8.5rem;
+    width:100%;
+    margin-top:0.5rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    background-color: white;
+}
+.myallorder-p-1{
+    position: absolute;
+    margin-top: -7rem;
+    color: #999999;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.myallorder-p-2{
+    position: absolute;
+    margin-top: -7rem;
+    color:red; 
+    right: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.myallorder-p-3{
+    font-size: 0.8rem;
+    margin-top: -5.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    float: left;
+    border: 0.01rem solid  #999999;
+}
+.myallorder-p-4{
+    position: absolute;
+    color: white;
+    background-color: #BD68C5;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: -2.5rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.myallorder-p-5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -2.5rem;
+    padding-left: 5rem;
+}
+.myallorder-p-6{
+    position: absolute;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-left:-9rem;
+    float: left;
+    left: 1.5rem;
+}
+.myallorder-p-7{
+    position: absolute;
+    float: left;
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    left: 1.5rem;
+}
+.myallorder-p-8{
+    position: absolute;
+    float: left;
+    color:red;
+    margin-top: 5.2rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-left:-9rem;
+    left: 1.5rem;
+}
+.myallorder-p-9{
+    position: absolute;
+    float: left;
+    margin-top: 5rem;
+    color: #999999;
+    right: 6rem;
+    padding: 0.25rem;
+    border: 0.05rem solid;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+.myallorder-p-10{
+    position: absolute;
+    float: left;
+    margin-top:5rem;
+    color: white;
+    background-color: red;
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    right: 2rem;
+    border-radius: 0.5rem;
+}
+.myallorder-p2-1{
+    position: absolute;
+    margin-top: -7rem;
+    color: #999999;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.myallorder-p2-2{
+    position: absolute;
+    margin-top: -7rem;
+    color:#03A359;
+    right: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.myallorder-p2-3{
+    font-size: 0.8rem;
+    margin-top: -5.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    float: left;
+    border: 0.01rem solid  #999999;
+}
+.myallorder-p2-4{
+    position: absolute;
+    color: white;
+    background-color: #02AEFB;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: -2.5rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.myallorder-p2-5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -2.5rem;
+    padding-left: 5rem;
+}
+.myallorder-p2-6{
+    position: absolute;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-left:-9rem;
+    float: left;
+    left: 1.5rem;
+}
+.myallorder-p2-7{
+    position: absolute;
+    float: left;
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    left: 1.5rem;
+}
+.myallorder-p2-8{
+    position: absolute;
+    float: left;
+    color:red;
+    margin-top: 5.2rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-left:-9rem;
+    left: 1.5rem;
+}
+.myallorder-p2-9{
+    position: absolute;
+    float: left;
+    margin-top: 5rem;
+    color: #999999;
+    right: 6rem;
+    padding: 0.25rem;
+    border: 0.05rem solid;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+.myallorder-p2-10{
+    position: absolute;
+    float: left;
+    margin-top:5rem;
+    color: white;
+    background-color: red;
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    right: 1.5rem;
+    border-radius: 0.5rem;
+}
+.myallorder-div-3{
+    height: 8.5rem;
+    width:100%;
+    margin: 0.5rem;
+    background-color: white;
+}
+.myallorder-p3-1{
+    position: absolute;
+    margin-top: -7rem;
+    color: #999999;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.myallorder-p3-2{
+    color:#03A359;
+    position: absolute;
+    margin-top: -7rem;
+    right: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.myallorder-p3-3{
+    font-size: 0.8rem;
+    margin-top: -5.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    float: left;
+    border: 0.01rem solid  #999999;
+}
+.myallorder-p3-4{
+    position: absolute;
+    color: white;
+    background-color: #09D0B4;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: -2.5rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.myallorder-p3-5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -2.5rem;
+    padding-left: 5rem;
+}
+.myallorder-p3-6{
+    position: absolute;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-top: 3.5rem;
+    margin-left:-9rem;
+    float: left;
+    left: 1.5rem;
+}
+.myallorder-p3-7{
+    position: absolute;
+    float: left;
+    margin-top: 3.5rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    left: 1.5rem;
+}
+.myallorder-p3-8{
+    position: absolute;
+    float: left;
+    color:red;
+    margin-top: 6.5rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-left:-9rem;
+    left: 1.5rem;
+}
+.myallorder-p3-9{
+    position: absolute;
+    float: left;
+    margin-top: 6.2rem;
+    color: #999999;
+    right: 6rem;
+    padding: 0.25rem;
+    border: 0.05rem solid;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+.myallorder-p3-10{
+    position: absolute;
+    float: left;
+    margin-top:6.2rem;
+    color: white;
+    background-color: red;
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    right: 2rem;
+    border-radius: 0.5rem;
+}
+.myallorder-p3-11{
+    position: absolute;
+    float: left;
+    margin-top: 1rem;
+    left: 1.5rem;
+    color: #999999;
+    font-size: 0.8rem;
+}
+.myallorder-div-4{
+    height: 8.5rem;
+    width:100%;
+    margin: 0.5rem;
+    background-color: white;
+}
+.myallorder-p4-1{
+    position: absolute;
+    margin-top: -7rem;
+    color: #999999;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.myallorder-p4-2{
+    color: #999999;
+    position: absolute;
+    margin-top: -7rem;
+    right: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.myallorder-p4-3{
+    font-size: 0.8rem;
+    margin-top: -5.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    float: left;
+    border: 0.01rem solid  #999999;
+}
+.myallorder-p4-4{
+    position: absolute;
+    color: white;
+    background-color: #999999;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.myallorder-p4-5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    padding-left: 5rem;
+}
+.myallorder-p4-6{
+    position: absolute;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    margin-left:-9rem;
+    float: left;
+    left: 1.5rem;
+}
+.myallorder-p4-7{
+    position: absolute;
+    float: left;
+    margin-top: 4rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    left: 1.5rem;
+}
+

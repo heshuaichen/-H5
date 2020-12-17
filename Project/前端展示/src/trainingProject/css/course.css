@@ -1,0 +1,76 @@
+.title{    
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff;
+    line-height: 50px;
+    font-size: 20px;
+    background-color:#02AEFB;
+}
+.btn{
+    width:70px;
+    height:30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin-top:10px;
+    background-color: #fff;
+    border:1px #E0EAF1 solid;
+    color:#B3BFC3;
+}
+.invitation{
+    width:95%;
+    height:40px;
+    background-color: #FFEDDD;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-top:10px;
+    border-radius: 6px;
+}
+.class1{
+    width:95%;
+    background-color: #fff;
+    margin:0 auto;
+    margin-top:20px;
+    border-radius: 6px;
+    height:170px;
+}
+.top1{
+    height:30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.content1 .text1{
+    font-size: 16px;
+    font-weight: bold;
+    width:180px;
+    margin:0 auto;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.content1 .text2{
+    font-size: 12px;
+    color:#666666;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.content1 .text3{
+    margin:0 auto;
+    margin-top: 10px;
+    
+}
+.content1 .text4{
+    margin: 0 auto;
+    float: left;
+}
+.content1 .btn1{
+    height: 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    border:1px #E0EAF1 solid;
+    color:#B3BFC3;
+    margin-top:10%;
+    margin-left: 10px;
+    font-size: 12px;
+    width: 80px;
+}

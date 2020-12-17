@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mycancelorder-div{
+    position: relative;
+    height: 8.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.mycancelorder-div-1{
+    height: 8.5rem;
+    width:100%;
+    margin: 0.5rem;
+    background-color: white;
+}
+.mycancelorder-p-1{
+    position: absolute;
+    margin-top: -7rem;
+    color: #999999;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.mycancelorder-p-2{
+    color: #999999;
+    position: absolute;
+    margin-top: -7rem;
+    right: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.mycancelorder-p-3{
+    font-size: 0.8rem;
+    margin-top: -5.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    float: left;
+    border: 0.01rem solid  #999999;
+}
+.mycancelorder-p-4{
+    position: absolute;
+    color: white;
+    background-color: #999999;
+    left: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.mycancelorder-p-5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    padding-left: 5rem;
+}
+.mycancelorder-p-6{
+    position: absolute;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    margin-left:-9rem;
+    float: left;
+    left: 1.5rem;
+}
+.mycancelorder-p-7{
+    position: absolute;
+    float: left;
+    margin-top: 4rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    left: 1.5rem;
+}
+

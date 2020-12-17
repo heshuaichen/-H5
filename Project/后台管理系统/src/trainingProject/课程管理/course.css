@@ -1,0 +1,53 @@
+.courseTable{
+    width: 94%;
+    margin:3% 3% 3% 3%;
+}
+.courseTh{
+    width: 20%;
+    height: 40px;
+    background-color:mintcream;
+    border-bottom: 1px solid #ccc;
+}
+.courseTd{
+    width: 20%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.courseImg{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    margin-top:15px;
+    margin-left: 0;
+}
+.courseBtn{
+    background-color: azure;
+    width: 40%;
+    font-size:12px ;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+.footBtn{
+    width:100%;
+    height: 50px;
+    text-align: center;
+}
+.footBtn span{
+    margin-left:5px;
+}
+.footB{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.footB span{
+    margin-left: 5px;
+}
+.spanColor{
+    color: mediumseagreen;
+}
+.defaultColor{
+    color: mediumseagreen;
+}

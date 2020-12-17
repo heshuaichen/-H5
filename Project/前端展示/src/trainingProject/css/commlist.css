@@ -1,0 +1,28 @@
+.commlist p{
+    margin: 0;
+}
+
+.cl-inst img{
+    width: 108px;
+    height: 108px;
+    margin-left: 10px;
+}
+.cl-inst{
+    /* border: 1px #ccc solid; */
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 7px;
+}
+.cl-inst-bm{
+    background-color: #EF2E25;
+    width: 80px;
+    height: 30px;
+    border-radius: 27px;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.ec{
+    margin: 10px  0 0 10px;
+}
+.ec-header{
+    height: 44px;
+    border-left: 2px mediumseagreen solid;
+    line-height: 44px;
+    padding-left: 10px;
+}
+.ec input{
+    width: 378px;
+    height: 34px;
+}
+.ec-button{
+    height: 24px;
+    width: 100px;
+    position: relative;
+    left: 250px;
+}
+.ec-form div{
+    margin:20px 0 20px 30%;
+}
