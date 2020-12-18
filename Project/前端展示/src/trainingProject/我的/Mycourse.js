@@ -79,7 +79,7 @@ class Mycourse extends React.Component {
                     {
                         arr.map((item, index) => {
                             console.log('items:', item[0].Pay);
-                            if (item[0].Pay ==='0') {
+                            if (item[0].Pay =='0') {
                                 str = '购买课程'
                             } else {
                                 str = '已购买课程'

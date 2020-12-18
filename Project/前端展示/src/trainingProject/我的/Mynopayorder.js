@@ -52,11 +52,7 @@ class Mynopayorder extends React.Component {
                                     type:'ADD_SHOP',
                                     shop:item
                                 });
-                                this.props.dispatch({
-                                    type:'BUY_COURSE',
-                                    data:item
-                                });
-                                this.props.history.push('/willpay')
+                                this.props.history.push('/mywillpay')
                             } 
                                 
                             }>去支付</Flex.Item>

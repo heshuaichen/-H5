@@ -17,7 +17,8 @@ class Myallorder extends React.Component {
         }).then(res => {
             return res.json();
         }).then(data =>{
-            console.log('全部订单：',data);
+            console.log('我的订单信息数据：',data);
+
             this.props.dispatch({
                 type:'ADD_ALLPAY',
                 Allpay:data
@@ -42,7 +43,7 @@ class Myallorder extends React.Component {
         }).then(res => {
             return res.text();
         }).then(data => {
-            console.log('删除订单:', data);
+          
             this.props.dispatch({
                 type: 'DEL_ALLPAY',
                 index: idx
@@ -52,7 +53,7 @@ class Myallorder extends React.Component {
 
     getList = () => {
         let arr = this.props.Allpay;
-        console.log('arrlist:', arr);
+        console.log('arrlist 我的订单信息数据:', arr);
 
         if (!arr) {
             return (

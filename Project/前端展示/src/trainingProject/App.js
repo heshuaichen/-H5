@@ -28,7 +28,10 @@ import Zhu_login from './登录页/Zhe_login';
 import Commlist from './社区/Commlist';
 import Commdetail from './社区/Commdetail';
 import CoursePayed from './我的/CoursePayed';
-import Mywillpay from './我的/Mywillpay'
+import Mywillpay from './我的/Mywillpay';
+
+//修改
+import Mypayed from './我的/Mypayed'
 const App = ()=>{
     return(<Provider store={store}>
         <Router>
@@ -41,6 +44,7 @@ const App = ()=>{
                 <Route path='/mypage/myorder' component={Myorder}/>
                 <Route path='/mypage/mycourse' component={Mycourse}/>
                 <Route path='/mywillpay' component={Mywillpay}/>
+                <Route path='/mypayed' component={Mypayed}/>
             </Switch>
             <Switch>
                 <Route path='/payed' component={Payed} />

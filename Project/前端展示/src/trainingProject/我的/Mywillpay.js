@@ -69,7 +69,7 @@ class WillPay extends Component {
                 </Flex>
                 <Flex style={{ height: '5rem', margin: '0 auto' }}>
                     <button className='pay-button' onClick={() => {
-                        this.props.history.push('/payed')
+                        this.props.history.push('/mypayed')
                     }}>去付款</button></Flex>
             </div >
         )

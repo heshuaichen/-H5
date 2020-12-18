@@ -88,7 +88,7 @@ class User extends React.Component {
                                 <tr className="tableTr">
                                     <td className="tableTd">{item.id}    </td>
                                     <td  className="tableTd">{item.name}  </td>
-                                    <td  className="tableTd">{item.password}  </td>
+                                    <td  className="tableTd">{item.fpassword}  </td>
                                     <td  className="tableTd">
                                         <button onClick={() => {
                                             fetch("http://www.shuaishuaide.top:2010/infor", {
