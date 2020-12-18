@@ -58,8 +58,19 @@ class Mycourse extends React.Component {
 
     render() {
         if (this.props.myCourse_list.length < 1) {
-            //
-            return <div>暂无更多的数据</div>
+            
+            return <div>
+                <header className="mycourse-header">
+                    <svg className="mycours-icon1" aria-hidden="true" onClick={() => this.props.history.push('/mypage')}>
+                        <use xlinkHref="#icon-fanhui"></use>
+                    </svg>
+                        我的课程
+                        <svg className="mycours-icon1-2" aria-hidden="true">
+                        <use xlinkHref="#icon-shoucang"></use>
+                    </svg>
+                </header>
+                <p style={{ marginTop: '4rem',textAlign:'center' }}>你还没有收藏课程哟！！！</p>
+            </div>
         } else {
             let arr = this.props.myCourse_list;
             let str = ''
