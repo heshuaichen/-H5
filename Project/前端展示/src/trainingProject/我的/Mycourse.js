@@ -89,22 +89,23 @@ class Mycourse extends React.Component {
                     <Flex style={{ width: '100%', height: '3rem' }} ></Flex>
                     {
                         arr.map((item, index) => {
-                            console.log('购买课程:', item.Pay);
-                            if (item.Pay =='0') {
+                            console.log(123);
+                            console.log('购买课程:', item);
+                            if (item[0].Pay =='0') {
                                 str = '购买课程'
                             } else {
                                 str = '已购买课程'
                             }
                             return (<Flex className="mycourse-list">
-                                <Flex ><img className="mycourse-image" src={'http://www.shuaishuaide.top:2010/' + item.Cpicture}  ></img></Flex>
+                                <Flex ><img className="mycourse-image" src={'http://www.shuaishuaide.top:2010/' + item[0].Cpicture}  ></img></Flex>
                                 <Flex className="mycourse-detail">
                                     <Flex.Item className="mycourse-list-p" >亲子交往</Flex.Item>
-                                    <Flex.Item className="mycourse-list-p-2" title={item.Cname}>{item.Cname}</Flex.Item>
+                                    <Flex.Item className="mycourse-list-p-2" title={item[0].Cname}>{item[0].Cname}</Flex.Item>
                                     <Flex className="mycourse-detail-div">
-                                        <Flex.Item className="mycourse-list-p-3" title={item.Cintroduce}>{item.Cintroduce}</Flex.Item>
+                                        <Flex.Item className="mycourse-list-p-3" title={item[0].Cintroduce}>{item[0].Cintroduce}</Flex.Item>
                                     </Flex>
                                     <Flex.Item className="mycourse-list-p-4" onClick={() => {
-                                        console.log('wipp pay:', item);
+                                        console.log('wipp pay:', item[0]);
                                         if (str === '已购买课程') { 
                                             return Toast.info('已经购买过了！！！！', 1)
                                         } else {
