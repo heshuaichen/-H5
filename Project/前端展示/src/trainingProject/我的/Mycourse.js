@@ -73,7 +73,7 @@ class Mycourse extends React.Component {
             </div>
         } else {
             let arr = this.props.myCourse_list;
-            let str = ''
+            let str = '购买课程'
             console.log('arr data:', arr);
             return (
                 <div>
@@ -89,22 +89,22 @@ class Mycourse extends React.Component {
                     <Flex style={{ width: '100%', height: '3rem' }} ></Flex>
                     {
                         arr.map((item, index) => {
-                            console.log('items:', item[0].Pay);
-                            if (item[0].Pay =='0') {
+                            console.log('购买课程:', item.Pay);
+                            if (item.Pay =='0') {
                                 str = '购买课程'
                             } else {
                                 str = '已购买课程'
                             }
                             return (<Flex className="mycourse-list">
-                                <Flex ><img className="mycourse-image" src={'http://www.shuaishuaide.top:2010/' + item[0].Cpicture}  ></img></Flex>
+                                <Flex ><img className="mycourse-image" src={'http://www.shuaishuaide.top:2010/' + item.Cpicture}  ></img></Flex>
                                 <Flex className="mycourse-detail">
                                     <Flex.Item className="mycourse-list-p" >亲子交往</Flex.Item>
-                                    <Flex.Item className="mycourse-list-p-2" title={item.Cname}>{item[0].Cname}</Flex.Item>
+                                    <Flex.Item className="mycourse-list-p-2" title={item.Cname}>{item.Cname}</Flex.Item>
                                     <Flex className="mycourse-detail-div">
-                                        <Flex.Item className="mycourse-list-p-3" title={item.Cintroduce}>{item[0].Cintroduce}</Flex.Item>
+                                        <Flex.Item className="mycourse-list-p-3" title={item.Cintroduce}>{item.Cintroduce}</Flex.Item>
                                     </Flex>
                                     <Flex.Item className="mycourse-list-p-4" onClick={() => {
-                                        console.log('wipp pay:', item[0]);
+                                        console.log('wipp pay:', item);
                                         if (str === '已购买课程') { 
                                             return Toast.info('已经购买过了！！！！', 1)
                                         } else {
@@ -112,13 +112,13 @@ class Mycourse extends React.Component {
                                             //将要购买的课程信息发送给支付界面
                                             this.props.dispatch({
                                                 type: 'BUY_COURSE',
-                                                data: item[0]
+                                                data: item
                                             })
                                             this.props.history.push('/mycourse/buyCourse')
                                         }
 
                                     }}>{str}</Flex.Item>
-                                    <Flex.Item className="mycourse-list-p-5" onClick={() => this.delCourse(index, item[0].Cno)
+                                    <Flex.Item className="mycourse-list-p-5" onClick={() => this.delCourse(index, item.Cno)
                                     }>删除课程</Flex.Item>
                                 </Flex>
                             </Flex>
